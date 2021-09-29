@@ -25,7 +25,7 @@ export const Container = styled.header`
       margin-left: 10px;
    }
    > input {
-        width: 1850px;
+        width: inherit;
         height: 30px;
 
         margin-top: 15px;

@@ -1,6 +1,7 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Header from "../src/components/Header"
 import Login from "./pages/Login";
+import Footer from "../src/components/Footer"
 
 
 function Router() {
@@ -8,10 +9,9 @@ function Router() {
     return (
         <>
         <BrowserRouter>
-            <Header/>
             <Switch>
                 <Route exact path="/">
-                    <Header />
+                    <Footer />
                 </Route>
             </Switch>
         </BrowserRouter>
